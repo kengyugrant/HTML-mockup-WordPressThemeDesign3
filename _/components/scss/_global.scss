@@ -1,0 +1,51 @@
+body {
+	font-size: 16px;
+}
+#{headings(all)} {
+	font-family: $Flamenco;
+}
+
+h1 {
+	font-size: $xxl;
+}
+
+h2 {
+	font-family: $Asap;
+	font-size: $m;
+}
+
+h3 {
+	font-size: $m;
+}
+
+h4, h5, h6 {
+	font-family: $Asap;
+	font-size: $s;
+}
+
+a {
+	color:$green;
+	font-family: $Asap;
+	text-decoration: none;
+	font-size: $s;
+	&:hover {
+		text-decoration: underline;
+		color:$dark-green;
+	}
+}
+
+p {
+	font-size: $s;
+	padding:$s;
+	line-height: 1.5;
+	font-family: $Asap;
+}
+
+.clearfix:before, .clearfix-after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear:both;
+}
